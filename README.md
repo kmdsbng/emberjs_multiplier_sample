@@ -1,2 +1,2 @@
-demo http://kmdsbng.github.com/hello_emberjs/
+demo http://kmdsbng.github.com/emberjs_multiplier_sample/
 
