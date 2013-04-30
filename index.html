@@ -47,22 +47,20 @@
   
 
   <script type="text/x-handlebars">
-    {{view Ember.TextField valueBinding="lhs"}}
+    {{view Ember.TextField valueBinding="view.lhs"}}
 
     *
 
-    {{view Ember.TextField valueBinding="rhs"}}
+    {{view Ember.TextField valueBinding="view.rhs"}}
 
     =
 
-    {{answer}}
+    {{view.answer}}
   </script>
 
-  <!-- The missing protocol means that it will match the current protocol, either http or https. If running locally, we use the local jQuery. -->
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-  <script>window.jQuery || document.write('<script src="js/libs/jquery-1.7.2.min.js"><\/script>')</script>
-  <script src="js/libs/handlebars-1.0.0.beta.6.js"></script>
-  <script src="js/libs/ember-1.0.0-pre.2.min.js"></script>
+  <script src="js/libs/jquery-1.9.1.js"></script>
+  <script src="js/libs/handlebars-1.0.0-rc.3.js"></script>
+  <script src="js/libs/ember-1.0.0-rc.3.js"></script>
   <script src="js/app.js"></script>
 </body>
 </html>
